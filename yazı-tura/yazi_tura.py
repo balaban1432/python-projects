@@ -1,4 +1,5 @@
-# yazı-tura oyunu
+# yazı-tura oyunu 
+
 import random
 coin = ("yazi", "tura")
 yazi, tura = 0, 0
