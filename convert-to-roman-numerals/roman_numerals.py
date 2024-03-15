@@ -60,7 +60,7 @@ while True:
             break
         elif int(number) > 3999 or int(number) <= 0:
             print("Not Valid Input !!!")
-        elif 3999 > int(number) > 0: 
+        elif 3999 >= int(number) > 0: 
             print(f"roman numerals of {int(number)} is: {roman_numbers(int(number))}")
     except:
         print("Not Valid Input !!!")          
